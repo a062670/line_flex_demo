@@ -1,0 +1,15 @@
+.flexBubble {
+  &.lyItem {
+    display: flex;
+    // width: 100%;
+    width: 300px;
+    margin-left: 7px;
+  }
+  &.lyItem + .lyItem {
+    margin-left: 9px;
+  }
+  .T1 {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+  }
+}

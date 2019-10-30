@@ -1,0 +1,7 @@
+@import "swiper/src/swiper.scss";
+.flexCarousel {
+  width: 100%;
+  .swiper-slide {
+    width: auto;
+  }
+}

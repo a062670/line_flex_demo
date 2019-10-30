@@ -1,1 +1,26 @@
 // app global css in SCSS form
+html,
+body {
+  overflow: hidden;
+}
+p {
+  margin-bottom: 0;
+}
+
+.flex {
+  font-family: -apple-system, "BlinkMacSystemFont", Helvetica, Roboto,
+    Sans-Serif;
+  line-height: 1.4;
+  font-size: 14px;
+  * {
+    box-sizing: border-box;
+  }
+  .hasAction {
+    cursor: pointer;
+  }
+  .MdBx.vr > div.mdBxFiller,
+  .MdBx.vr > div.mdBxSpacer,
+  .MdBx.vr > div:first-child {
+    margin-top: 0 !important;
+  }
+}

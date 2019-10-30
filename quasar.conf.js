@@ -20,14 +20,14 @@ module.exports = function(ctx) {
       // 'eva-icons',
       // 'themify',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
-
       // 'roboto-font', // optional, you are not bound to it
-      'material-icons' // optional, you are not bound to it
+      // 'material-icons' // optional, you are not bound to it
+      'fontawesome-v5'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
     framework: {
-      // iconSet: 'ionicons-v4', // Quasar icon set
+      iconSet: 'fontawesome-v5', // Quasar icon set
       // lang: 'de', // Quasar language pack
 
       // Possible values for "all":
@@ -39,12 +39,28 @@ module.exports = function(ctx) {
       //            (not treeshaking Quasar; biggest bundle size; convenient)
       all: false,
 
-      components: ['QBtn', 'QIcon'],
+      components: [
+        'QList',
+        'QItem',
+        'QItemSection',
+        'QExpansionItem',
+        'QScrollArea',
+        'QInput',
+        'QDrawer',
+        'QLayout',
+        'QHeader',
+        'QPage',
+        'QPageContainer',
+        'QToolbar',
+        'QToolbarTitle',
+        'QBtn',
+        'QIcon'
+      ],
 
       directives: ['Ripple'],
 
       // Quasar plugins
-      plugins: []
+      plugins: ['Notify']
     },
 
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ie

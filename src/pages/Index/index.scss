@@ -1,0 +1,27 @@
+.q-layout {
+  background-color: #6e81ab;
+}
+.examplesList {
+  height: calc(100% - 50px);
+  .q-item--active {
+    background-color: rgba(2, 123, 227, 0.1);
+  }
+}
+.jsonView {
+  padding-right: 10px;
+}
+.copyBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.q-page-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  .contents {
+    padding: 20px 10px;
+  }
+}
